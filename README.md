@@ -15,7 +15,7 @@ Problemario de la asignatura de métodos numéricos, tema 5. 5 ejericicios de in
   - Ejercicios.
   ********************************************************************************************************************************************
   
-Interpolar se entenderá estimar un valor desconocido en algún punto de una función
+Interpolar se entiende como estimar un valor desconocido en algún punto de una función.
   
 # Interpolación lineal
 ## Definición
@@ -44,8 +44,42 @@ Fin Algoritmo
 
 ```
 ## Código en Java
+```
+public class InterpolacionLineal {
+
+    // Método para realizar la interpolación lineal
+    public static double interpolacionLineal(double x0, double y0, double x1, double y1, double x) {
+        // Calcular la pendiente (m)
+        double m = (y1 - y0) / (x1 - x0);
+        // Calcular el valor interpolado de y
+        return y0 + m * (x - x0);
+    }
+
+    public static void main(String[] args) {
+        // Puntos conocidos
+        double x0 = 1.0, y0 = 2.0;
+        double x1 = 3.0, y1 = 3.0;
+        // Valor de x para el cual queremos estimar y
+        double x = 2.0;
+        
+        // Calcular el valor interpolado de y
+        double y = interpolacionLineal(x0, y0, x1, y1, x);
+        
+        // Imprimir el resultado
+        System.out.println("El valor interpolado de y para x=" + x + " es " + y);
+    }
+}
+```
+
+### Salida
 
 
+
+## 5 Ejercicios en Java
+
+
+
+********************************************************************************************************************************************
 
 
 
