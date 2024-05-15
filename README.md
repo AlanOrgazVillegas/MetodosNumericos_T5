@@ -1,5 +1,5 @@
-# Métodos numéricos Tema 4: Diferenciación e integración númerica.
-Problemario de la asignatura de métodos numéricos, tema 4. 5ejericicios del método de trapecio, regla de Simpson 1/3 y regla de Simpson 3/8
+# Métodos numéricos Tema 5: Interpolación y ajuste de funciones
+Problemario de la asignatura de métodos numéricos, tema 5. 5ejericicios de interpolación lineal e interpolación cuadrática.
 
 ********************************************************************************************************************************************
 ## ÍNDICE
