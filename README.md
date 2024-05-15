@@ -1,5 +1,5 @@
 # Métodos numéricos Tema 5: Interpolación y ajuste de funciones
-Problemario de la asignatura de métodos numéricos, tema 5. 5ejericicios de interpolación lineal e interpolación cuadrática.
+Problemario de la asignatura de métodos numéricos, tema 5. 5 ejericicios de interpolación lineal e interpolación cuadrática.
 
 ********************************************************************************************************************************************
 ## ÍNDICE
