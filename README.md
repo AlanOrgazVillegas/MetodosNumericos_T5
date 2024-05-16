@@ -20,6 +20,7 @@ Interpolar se entiende como estimar un valor desconocido en algún punto de una 
 # Interpolación lineal
 ## Definición
 La forma más simple de interpolación consiste en unir dos puntos con una línea recta. Dicha técnica es llamada interpolación lineal.
+La notación f1(x) designa que éste es un polinomio de interpolación de primer grado. Observe que además de representar la pendiente de la línea que une los puntos, el término f(x1) – f(x0)/(x1 – x0) es una aproximación en diferencia dividida finita a la primer derivada 
 
 Fórmula: ![Captura de pantalla (160)](https://github.com/AlanOrgazVillegas/MetodosNumericos_T5/assets/147757830/6b2f7603-0ac1-4428-a816-d2c487434765)
 
@@ -73,14 +74,15 @@ public class InterpolacionLineal {
 
 ### Salida
 
-
+![Captura de pantalla (163)](https://github.com/AlanOrgazVillegas/MetodosNumericos_T5/assets/147757830/d3901a4a-668d-4317-9815-c74ab3e87653)
 
 ## 5 Ejercicios en Java
 
 
 
 ********************************************************************************************************************************************
-
+# Interpolación cuadrática
+## Definición
 
 
 
